@@ -17,8 +17,10 @@
 
 **Установка зависимостей**
 
-> `$ pip install -r requirements.txt`
+'pip install -r requirements.txt`
 
-**Запуск автотестов и создание HTML-отчета о покрытии**
+**Установка и запуск автотестов и создание HTML-отчета о покрытии**
 
->  `$ pytest --cov=praktikum --cov-report=html`
+'pip install pytest pytest-cov'  
+'pytest tests --cov=praktikum --cov-report=term-missing -vv'
+
